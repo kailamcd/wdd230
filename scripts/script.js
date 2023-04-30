@@ -9,4 +9,3 @@ document.querySelector('#footer-info').innerHTML = `\u00A9${year}  |  Kaila McDo
 document.querySelector('#updated').innerHTML = `Last Updated ${date}`;
 
 //make assignment list
-const assignment = {lessonNumber:"01", }

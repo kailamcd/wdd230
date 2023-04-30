@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Quicksand:wght@300;500&display=swap');
+
+body{
+    text-align: center;
+    font-family: "Quicksand";
+    max-width: 1270px;
+}
+
+header{
+    background-color: black;
+    border-top-right-radius: 15px;
+}
+
+h1, h2{
+    font-family: "Quicksand";
+    margin-top: -10px;
+    text-align: center;
+    color: bisque;
+}
+
+.title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+#container1, #container2, #container3{
+    border: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 10px auto;
+}
+
+p{
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 325px;
+}
+
+#site1, #site2, #site3{
+    margin-top: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}

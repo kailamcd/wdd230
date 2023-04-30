@@ -1,0 +1,18 @@
+@media screen and (max-width: 32.5em) {
+    
+    body{
+        margin: auto;
+    }
+
+    #headshot {
+        width: auto;
+    }
+
+    #title {
+        margin-left: 0px;
+    }
+
+    #assign-list {
+        margin-left: 30px;
+    }
+}

@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Quicksand:wght@300;500&display=swap');
 
 
-body{
-    max-width: 500px;
+body {
     border: 10px;
     margin: auto;
+    font-size: 16px;
 }
 
 #header-grid{
     display: grid;
-    grid-template-columns: 200px 300px;
+    grid-template-columns: 2fr 3fr;
     background-color: black;
     max-width: 475px;
+    min-width: none;
     color: white;
     text-align: center;
 }
 
 #headshot {
     max-width: 150px;
+    width: auto;
     grid-column: 1/2;
     margin: 25px;
 }
