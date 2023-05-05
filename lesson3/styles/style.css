@@ -1,36 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap');
+
+
 body{
     width: 75%;
-    border: 1px solid black;
+    border: 1px solid #7ed957;
     margin: auto;
     font-size: 16px;
     margin-bottom: 30px;
     min-width: min-content;
+    font-family: 'Monserrat', sans-serif;
 }
 
-ol{
-    margin-left: -40px;
-}
-
-nav li{
-    display: inline;
+a{
     text-decoration: none;
-    margin: 5px;
+}
+
+h1{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 600;
+}
+
+h2{
+    font-family: 'Monserrat', sans-serif;
+    font-style: italic;
+}
+
+h3{
+    font-weight: bold;
+    line-height: 1.5em;
+}
+nav{
+    flex-direction: row;
+    display: flex;
+}
+
+.p-bold{
+    margin: auto;
+    background-color: #5ce1e6;
+    color: black;
+    height: auto;
+    padding: 10px;
+    width: 90%;
+}
+
+div{
+
+}
+
+nav div{
+    flex: 1 1 auto;
+}
+
+div.option{
+    display: flex;
+    min-width: 100px;
+    height: 2.25em;
+    background-color: #0097b2;
+    color: white;
+}
+
+.option a{
+    text-decoration: none;
     padding-left: -40px;
+    padding-top: 5px;
+    flex: 1 1 auto;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 400;
 }
 
-li:hover{
-    background-color: bisque;
+.option:hover{
+    background-color: #5ce1e6;
 }
 
+.option a:hover{
+    color: black;
+}
 
 h3{
     margin-top: -20px;
 }
 
 header{
-    background-color: blanchedalmond;
+    background-color: #0cc0df;
     margin: auto;
-    width: 50%;
+    width: 80%;
     text-align: center;
 }
 
@@ -38,6 +93,38 @@ main{
     width: 65%;
     margin: auto;
     line-height: 1.2em;
+}
+
+#design-block{
+    margin-top: 15px;
+
+    text-align: center;
+}
+
+
+.color-container div{
+    height: 70px;
+    margin-top: 5px;
+}
+
+.blue1{
+    background-color: #0097b2;
+}
+
+.blue2{
+    background-color: #0cc0df;
+}
+
+.blue3{
+    background-color: #5ce1e6;
+}
+
+.green{
+    background-color: #7ed957;
+}
+
+.orange{
+    background-color: #f0a202;
 }
 
 section{
@@ -52,8 +139,21 @@ p{
 section dl{
     width: 75%;
     margin: auto;
+    margin-top: 5px;
 }
 section dt{
     margin-left: 15px;
     font-weight: bold;
+}
+
+#logo-img{
+    margin-top: -15px;
+    display: block;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    height: 30px;
 }

@@ -1,11 +1,21 @@
-@media screen and (min-width: 435px) and (max-width: 719px) {
+@media screen and (min-width: 300px) and (max-width: 719px) {
     
-    body{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap');
 
+    body{
+        width: 90%;
     }
-    li{
-        max-width: auto;
-        display: flex;
+
+    header{
+        width: 90%;
+    }
+
+    main{
+        width: 80%;
+    }
+
+    nav{
+        flex-direction: column;
     }
 
 }
