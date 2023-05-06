@@ -156,5 +156,18 @@ section dd{
 }
 
 footer{
-    height: 30px;
+    margin-top: 30px;
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0097b2;
+    text-align: center;
+    height: auto;
+    color: white;
+}
+
+#footer-info, #updated {
+    color: white;
+    margin-left: -25px;
 }
