@@ -143,6 +143,9 @@ section dt{
     margin-left: 15px;
     font-weight: bold;
 }
+section dd{
+    margin-bottom: 10px;
+}
 
 #logo-img{
     margin-top: -15px;

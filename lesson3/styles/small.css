@@ -18,4 +18,13 @@
         flex-direction: column;
     }
 
+    section dl{
+        width: 80%;
+    }
+    section dt{
+        margin-left: 5px;
+    }
+    section dd{
+        margin-left: 25px;
+    }
 }
