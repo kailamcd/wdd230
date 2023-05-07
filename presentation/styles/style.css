@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+/* make the subtitle and article title behave differently */
+
+#page-title{
+    text-align: center;
+}
+
+#subtitle{
+    text-align: center;
+}
+
+#article{
+    color: orange;
+}
+
+
+
+
+/* create an emphasized paragraph that shares a space with an image */
+
+.emphasized{
+    max-width: 300px;
+    background-color: orange;
+    padding: 10px;
+}
+
+.regular{
+    text-align: center;
+}
+/* create a regular paragraph */
