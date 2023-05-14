@@ -1,0 +1,19 @@
+@media screen and (max-width: 700px){
+
+#top-banner{
+    width: auto;
+    grid-template-columns: 200px 1fr;
+}
+
+#header-logo{
+    margin: auto;
+    max-width: 100px;
+}
+
+#body-grid{
+    display: block;
+}
+
+
+
+}

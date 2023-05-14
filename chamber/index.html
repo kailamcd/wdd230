@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Home page for Flower Mound Chamber of Commerce.">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
     <title>FMCC Home</title>
 </head>
 <body>
@@ -13,19 +15,23 @@
 <!-- header -->
     <header>
         <div id="header-container">
-            <img id="logo" src="images/FMCC-LOGO.png">
+            <section id="top-banner">
+            <img id="header-logo" src="images/FMCC-LOGO.png">
             <h1 id="site-title">Flower Mound Chamber of Commerce</h1>
+            </section>
+            <div id="date-banner">
             <time id="header-date"></time>
+            </div>
             <nav>
                 <button id="hamButton">&#9776;</button>
                 <ul class="navigation">
-                    <li href="#" title="home">Home</li>
-                    <li href="#" title="discover">Discover</li>
-                    <li href="#" title="directory">Directory</li>
-                    <li href="#" title="join">Join</li>
-                    <li href="#" title="contact">Contact</li>
-                    <li href="#" title="facebook">Facebook</li>
-                    <li href="#" title="instagram">Instagram</li>
+                    <li><a href="#" title="home">Home</a></li>
+                    <li><a href="#" title="discover">Discover</a></li>
+                    <li><a href="#" title="directory">Directory</a></li>
+                    <li><a href="#" title="join">Join</a></li>
+                    <li><a href="#" title="contact">Contact</a></li>
+                    <li><a href="#" title="facebook">Facebook</a></li>
+                    <li><a href="#" title="instagram">Instagram</a></li>
                 </ul>
             </nav>
 
@@ -35,48 +41,51 @@
 
 <!-- main -->
     <main>
-        <section id="hero-image">
-            <img>
-        </section>
-
-        <section id="news">
-            <h2>News</h2>
-        </section>
-
-        <section id="events">
-            <h2>Events</h2>
-        </section>
-
-        <section id="weather">
-            <h2>Weather</h2>
-        </section>
-
-        <section id="join">
-            <h2>Join</h2>
-        </section>
-
-        <section id="company-spotlights">
-            <div class="company-block1">
-                <h3 id="company-name">Spotlight 1</h3>
+        <div id="body-grid">
+            <section id="hero-image">
+                <h2>Hero Image</h2>
                 <img>
-            </div>
+            </section>
 
-            <div class="company-block2">
-                <h3 id="company-name">Spotlight 2</h3>
-                <img>
-            </div>
+            <section id="news">
+                <h2>News</h2>
+            </section>
 
-            <div class="company-block3">
-                <h3 id="company-name">Spotlight 3</h3>
-                <img>
-            </div>
-        </section>
+            <section id="events">
+                <h2>Events</h2>
+            </section>
+
+            <section id="weather">
+                <h2>Weather</h2>
+            </section>
+
+            <section id="join">
+                <h2>Join</h2>
+            </section>
+
+            <section id="spotlight-grid">
+                <div class="company-block1">
+                    <h3 id="company-name">Spotlight 1</h3>
+                    <img>
+                </div>
+
+                <div class="company-block2">
+                    <h3 id="company-name">Spotlight 2</h3>
+                    <img>
+                </div>
+
+                <div class="company-block3">
+                    <h3 id="company-name">Spotlight 3</h3>
+                    <img>
+                </div>
+            </section>
+        </div>
     </main>
 
 <!-- footer -->
     <footer>
-        <img id="logo" src="images/FMCC-LOGO.png">
-        <div><span id="footer-info"></span><br>
+        <img id="footer-logo" src="images/FMCC-LOGO.png">
+        <div id="info-box"><span id="footer-info"></span></div>
     </footer>
     <script src="scripts/script.js"></script>
 </body>
