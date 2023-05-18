@@ -7,13 +7,21 @@
 
 #header-logo{
     margin: auto;
-    max-width: 100px;
+    width: 100%;
+    height: auto;
 }
 
 #body-grid{
     display: block;
 }
 
+#spotlight-grid{
+    display: block;
+}
+
+#company-block1, #company-block2, #company-block3{
+    max-width: 300px;
+}
 
 
 }

@@ -5,6 +5,14 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
+#mon-tues-banner{
+	background-color: #0097b2;
+	height: auto;
+	position: relative;
+	color: white;
+	z-index: 1;
+}
+
 #top-banner{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -18,7 +26,6 @@ body{
 	grid-column: 1/2;
 	margin-left: auto;
 	margin-right: 30px;
-
 }
 
 #site-title{
@@ -33,8 +40,6 @@ body{
 	background-color: #5ce1e6;
 	text-align: center;
 	padding: 5px;
-
-
 }
 
 #header-date{
@@ -45,7 +50,7 @@ body{
 
 
 main section{
-    border: 1px solid black;
+
     height: auto;
     margin: 5px;
 }
@@ -53,18 +58,45 @@ main section{
 #body-grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	text-align: center;
+	text-align: right;
 }
 
-#hero-image{
+.hero-image{
 	grid-column: 1/3;
+	max-height: 400px;
+	max-width: 1300px;
+	margin: auto;
+}
+
+.big-title{
+	position: relative;
+	top: 75%;
+	margin: auto;
+	padding-right: 15px;
+	padding-top: 10px;
+	max-width: 100%;
+	height: 1.75em;
+	background-color: #7ed957;
+}
+
+#news, #events, #weather, #join{
+	display: float;
 }
 
 #spotlight-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
     text-align: center;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
 	grid-column: 1/3;
+}
+
+.big-img{
+	max-width: 100%;
+	height: auto;
 }
 
 .company-block1{
@@ -79,9 +111,24 @@ main section{
     grid-column: 3/4;
 }
 
+.company-block1, .company-block2, .company-block3{
+	margin: auto;
+	z-index: -1;
+	max-width: 400px;
+	height: auto;
+
+}
+
 #company-name{
     height: auto;
     font-family: sans-serif;
+	z-index: 3;
+	background-color: #7ed957;
+}
+
+.comp-img{
+	max-width: 100%;
+	margin-top: -57px;
 }
 
 footer{
