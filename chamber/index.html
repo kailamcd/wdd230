@@ -7,7 +7,7 @@
     <meta name="description" content="Home page for Flower Mound Chamber of Commerce.">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/small.css">
-    <!-- add medium -->
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <title>FMCC Home</title>
 </head>
@@ -15,9 +15,6 @@
 
 <!-- header -->
     <header>
-        <!-- This banner shoud: 
-        Only on Mondays and Tuesdays
-        Read "Come join us for the chamber meet and greet Wednesday at 7:00 p.m." -->
         <div id="mon-tues-banner">
             <span id="banner-content"></span>
         </div>
@@ -50,14 +47,14 @@
     <main>
         <div id="body-grid">
             <section class="hero-image">
-                <img class="hero-image" src="images/neighborhood-01.jpg">
+                <img class="hero-image" src="images/hero-img-01.jpg">
             </section>
 
             <section id="news">
                 <h2 class="big-title">News</h2>
                 <img class="big-img" src="images/news-01.jpg">
             </section>
-
+        <div id="left-column">
             <section id="events">
                 <h2 class="big-title">Events</h2>
                 <img class="big-img" src="images/event-01.jpg">
@@ -75,7 +72,7 @@
                 <img class="big-img" src="images/join.jpg">
 
             </section>
-
+        </div>
             <section id="spotlight-grid">
                 <div class="company-block1">
                     <h3 id="company-name">Bakery</h3>
@@ -100,7 +97,18 @@
 
 <!-- footer -->
     <footer>
-        <img id="footer-logo" src="images/FMCC-LOGO.png">
+        <div id="logo-chunk">
+            <img id="footer-logo" src="images/FMCC-LOGO.png">
+            <h3>Flower Mound Chamber of Commerce</h3>
+            <p>700 Parker Square Rd. #100<br>Flower Mound, TX 75028</p>
+        </div>
+<!-- contact info -->
+        <div id="contact-block">
+            <p><a href="tel:+19725394307">(972)539-4307</a><br>
+            <a href="https://www.google.com/maps/place/Flower+Mound+Chamber-Commerce/@33.03927,-97.0524276,19.6z/data=!4m14!1m7!3m6!1s0x864c2d7504ce02ad:0x2ebc28977c6c4cda!2sFlower+Mound+Chamber-Commerce!8m2!3d33.039292!4d-97.052071!16s%2Fg%2F1vxw8nyw!3m5!1s0x864c2d7504ce02ad:0x2ebc28977c6c4cda!8m2!3d33.039292!4d-97.052071!16s%2Fg%2F1vxw8nyw?hl=en-US">Location Map</a>
+            </p>
+        </div>
+
         <div id="info-box"><span id="footer-info"></span></div>
     </footer>
     <script src="scripts/script.js"></script>
