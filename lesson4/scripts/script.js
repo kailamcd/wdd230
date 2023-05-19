@@ -9,9 +9,12 @@ const x = document.createElement("button");
 
 
 function addToList() {
+    const li = document.createElement("li");
     li.textContent= input.value;
 
+    const x = document.createElement("button");
     x.textContent = "❌";
+
     li.appendChild(x);
     list.appendChild(li);
 
