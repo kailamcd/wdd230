@@ -6,9 +6,13 @@ const li = document.createElement("li");
 
 const x = document.createElement("button");
 
+let index = 0;
+
 
 
 function addToList() {
+    index += 1;
+    console.log(index);
     const li = document.createElement("li");
     li.textContent= input.value;
 
@@ -20,6 +24,8 @@ function addToList() {
 
     input.value = '';
     input.focus();
+
+    x.addEventListener('click', removeItem);
     
 }
 
@@ -29,4 +35,3 @@ function removeItem() {
 
 button.addEventListener('click', addToList);
 
-x.addEventListener('click', removeItem);
