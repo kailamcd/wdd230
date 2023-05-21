@@ -55,13 +55,7 @@ main section{
     margin: 5px; */
 }
 
-#body-grid{
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: auto auto;
-	grid-gap: 10px;
-	text-align: right;
-}
+
 
 .hero-image{
 	grid-column: 2/4;
