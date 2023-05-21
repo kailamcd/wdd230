@@ -24,4 +24,15 @@
 		display: block;
 		flex: 1 1 auto;
 	}
+
+	#spotlight-grid{
+		padding: 5px;
+		background-color: #0097b2;
+		z-index: -1;
+		display: grid;
+		grid-template-row: 1fr 1fr 1fr;
+		grid-gap: 5px;
+		grid-column: 4/5;
+		grid-row: 1/3;
+	}
 }
