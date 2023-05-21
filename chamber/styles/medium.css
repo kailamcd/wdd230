@@ -1,10 +1,45 @@
-@media screen and (max-width: 700px) {
+@media screen and (min-width:501px) and (max-width: 700px) {
 
     #body-grid {
-        display: block;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    #hero-image {
+        width: 100%;
+        height: auto;
+        grid-row: 1/3;
+        /* grid-column: 1/2; */
+    }
+
+    #news {
+        width: 100%;
+        height: auto;
+        grid-row: 2/3;
+    }
+
+    #left-column {
+        grid-row: 4/5;
+        display: grid;
+        grid-template-columns: 66% 33%;
+        grid-template-rows: auto auto;
+    }
+
+    #join {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        width: 100%;
+        height: auto;
+    }
+
+    #weather {
+        grid-row: 2/3;
+        grid-column: 2/3;
     }
 
     #spotlight-grid {
+        grid-row: 2/3;
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
     }
