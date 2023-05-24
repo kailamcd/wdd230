@@ -4,6 +4,8 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 	width: 97%;
+	max-width: 1200px;
+	margin: auto;
 }
 
 #mon-tues-banner{
@@ -49,14 +51,6 @@ body{
 	width: 500px;
 }
 
-
-main section{
-    /* height: auto;
-    margin: 5px; */
-}
-
-
-
 .hero-image{
 	grid-column: 2/4;
 	grid-row: 1/2;
@@ -93,7 +87,11 @@ main section{
 	position: relative;
 }
 
-
+#weather-info {
+	position: absolute;
+	right: 0;
+	background-color: #5ce1e6;
+}
 
 .big-img{
 	width: 100%;
@@ -138,6 +136,7 @@ footer{
 
 
 #footer-logo{
+	margin-top: 30px;
 	max-width: 100px;
 	height: auto;
 }

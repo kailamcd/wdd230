@@ -29,3 +29,4 @@ const banner = document.querySelector('#banner-content')
 if (day == 'Monday' || day == "Tuesday") {
 	banner.textContent = '🤝 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.'
 };
+
