@@ -26,13 +26,12 @@ body{
 	width: 100%;
 	margin: auto;
 }
-#logo{
+
+#header-logo{
 	grid-column: 1/2;
 	margin-left: auto;
 	margin-right: 30px;
-}
-#header-logo{
-    /* max-width: 150px; */
+    max-width: 150px;
     height: auto;
 
 }
