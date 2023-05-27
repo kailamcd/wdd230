@@ -69,12 +69,12 @@
                 </section>
 
                 <section id="weather">
-                    <h2 class="big-title">Weather</h2>
+                    <!-- <h2 class="big-title">Weather</h2> -->
                     <div id="weather-info">
                         <h2 class="temp-title">33</h2>
                         <h3>Partly Cloudy</h3>
-                        <p>Wind Speed:  2.5 km/h</p>
-                        <p>Wind Chill:  N/A</p>
+                        <p>Wind Speed:  <span id="wind-speed"></span>m/h</p>
+                        <p class="chill">Wind Chill:  N/A</p>
                     </div>
                     <img class="big-img" src="images/weather-01.jpg">
 
@@ -125,5 +125,6 @@
         <div id="info-box"><span id="footer-info"></span></div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
