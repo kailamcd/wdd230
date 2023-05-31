@@ -203,3 +203,15 @@ nav ul{
 }
 
 
+/* discovery page specific css */
+
+#disc-grid{
+	display: grid;
+	grid-template-columns: 33% 1fr;
+	grid-template-rows: 1fr;
+}
+
+#disc-grid div{
+	border: 1px solid #0097b2;
+}
+
