@@ -209,9 +209,34 @@ nav ul{
 	display: grid;
 	grid-template-columns: 33% 1fr;
 	grid-template-rows: 1fr;
+	grid-gap: 5px;
 }
 
 #disc-grid div{
 	border: 1px solid #0097b2;
+	padding: 5px;
+}
+
+#attribution{
+	margin-top: -20px;
+	text-align: right;
+	position: relative;
+	right: 20px;
+	font-size: 1em;
+}
+
+#disc-main h3{
+	margin-bottom: 0px;
+}
+
+#gallery{
+	width: 100%;
+}
+
+#map{
+	float: right;
+	position: relative;
+	top: 5px;
+	right: 5px;
 }
 
