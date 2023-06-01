@@ -163,6 +163,7 @@ footer{
 	padding: .5rem;
 	background-color: #7ed957;
 	color: white;
+	cursor: pointer;
 }
 nav ul{
     padding: 0;
@@ -203,7 +204,7 @@ nav ul{
 }
 
 
-/* discovery page specific css */
+/* discover page specific css */
 
 #disc-grid{
 	display: grid;

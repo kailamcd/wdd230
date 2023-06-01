@@ -48,16 +48,26 @@
     <main>
         <div id="disc-grid">
             <div id="left-column" title="photo-gallery">
-                <img id="gallery" src="images/disc-images/cac.webp" alt="">
-                <p>State of the art summer fun</p>
-                <img id="gallery" src="images/disc-images/community.jpg" alt="">
-                <p>Strong community</p>
-                <img id="gallery" src="images/disc-images/flower-mound.jpg" alt="">
-                <p>Landmarks</p>
-                <img id="gallery" src="images/disc-images/grapevine-lake.jpg" alt="">
-                <p>Things to do</p>
-                <img id="gallery" src="images/disc-images/riverwalk.jpg" alt="">
-                <p>Development</p>
+                <figure>
+                    <img id="gallery" src="images/disc-images/cac.webp" alt="">
+                    <figcaption>State of the art summer fun!</figcaption>
+                </figure>
+                <figure>
+                    <img id="gallery" src="images/disc-images/community.jpg" alt="">
+                    <figcaption>Strong community</figcaption>
+                </figure>
+               <figure> 
+                    <img id="gallery" loading="lazy" src="images/disc-images/flower-mound.jpg" alt="">
+                    <figcaption>Landmarks</figcaption>
+                </figure>
+                <figure>
+                    <img id="gallery" loading="lazy" src="images/disc-images/grapevine-lake.jpg" alt="">
+                    <figcaption>Things to do</figcaption>
+                </figure>
+                <figure>
+                    <img id="gallery" loading="lazy" src="images/disc-images/riverwalk.jpg" alt="">
+                    <figcaption>Development</figcaption>
+                </figure>
                 <!-- <img id="gallery" src="#" alt=""> -->
             </div>
             <div id="disc-main">
@@ -109,5 +119,6 @@
         <div id="info-box"><span id="footer-info"></span></div>
         </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/lazy-load.js"></script>
     </body>
     </html>
