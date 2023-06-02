@@ -216,7 +216,7 @@ nav ul{
 
 #disc-grid{
 	display: grid;
-	grid-template-columns: 33% 1fr;
+	grid-template-columns: 45% 1fr;
 	grid-template-rows: 1fr;
 	grid-gap: 5px;
 }
@@ -251,5 +251,9 @@ nav ul{
 	position: relative;
 	top: 5px;
 	right: 5px;
+}
+
+figure{
+	margin: 20px;
 }
 
