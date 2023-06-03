@@ -33,6 +33,10 @@ figure{
     margin: 5px;
 }
 
+#gallery:hover{
+    filter: none;
+}
+
 #map{
     display: none;
 }
