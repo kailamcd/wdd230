@@ -23,5 +23,18 @@
     max-width: 300px;
 }
 
+/* discover page */
+
+#disc-grid{
+    display: block;
+}
+
+figure{
+    margin: 5px;
+}
+
+#map{
+    display: none;
+}
 
 }

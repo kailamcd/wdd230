@@ -251,6 +251,9 @@ nav ul{
 	position: relative;
 	top: 5px;
 	right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+
 }
 
 figure{
