@@ -214,6 +214,10 @@ nav ul{
 
 /* discover page specific css */
 
+#last-visit{
+	text-align: center;
+}
+
 #disc-grid{
 	display: grid;
 	grid-template-columns: 45% 1fr;
