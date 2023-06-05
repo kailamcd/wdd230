@@ -21,6 +21,8 @@ hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('responsive');
 });
 
+const topMargin = document.querySelector("#header-container");
+
 
 const optionsDay = {weekday: 'long'};
 let day = new Date().toLocaleDateString('en-US', optionsDay);
@@ -28,5 +30,6 @@ const banner = document.querySelector('#banner-content')
 
 if (day == 'Monday' || day == "Tuesday") {
 	banner.textContent = '🤝 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.'
+	topMargin.style.marginTop = "50px";
 };
 
