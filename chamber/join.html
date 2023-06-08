@@ -46,7 +46,45 @@
 
 
     <main>
+        <div id="join-form">
+            <div id="form-grid">
+                <label for="first-name" class="first-name">First Name:
+                    <input type="text" class="first-name" name="first-name" required>
+                </label>
 
+                <label for="last-name" class="last-name">Last Name:
+                    <input type="text" class="last-name" name="last-name" required>
+                </label>
+
+                <label for="bus-title" class="title">Title
+                    <input type="text" class="title" name="title">
+                </label>
+
+                <label for="email" class="email">Email:
+                    <input type="email" class="email" name="email" required>
+                </label>
+
+                <label for="phone" class="phone">Phone Number:
+                    <input type="tel" class="phone" name="phone" required>
+                </label>
+
+                <label for="level" class="level">Membership Level:
+                    <select class="level" name="level" required>
+                        <option value="placeholder">Choose One</option>
+                        <option value="np">Non-Profit Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+
+                <label for="bus-descrip" class="bus-descrip">Business Description
+                    <input type="text" class="bus-descrip" name="bus-descrip" required maxlength="250" minlength="50">
+                </label>
+
+                <button value="submit">Submit</button>
+            </div>
+        </div>
 
     </main>
 
