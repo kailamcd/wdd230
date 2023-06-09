@@ -13,10 +13,12 @@ thead tr{
 
 thead tr th{
     font-size: 1.5em;
+    padding: .5em;
 }
 
 tbody tr th{
     font-size: 1.25em;
+    padding: .2em;
 }
 
 tr:nth-child(odd){
@@ -26,4 +28,8 @@ tr:nth-child(odd){
 td{
     text-align: center;
     padding: 2px;
+}
+
+tbody tr th.heading{
+    background-color: rgba(100, 100, 100, 0.5);
 }
