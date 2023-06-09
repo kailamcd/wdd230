@@ -1,6 +1,29 @@
-thead tr{
-    color:black;
+table{
+    background-color: lightgrey;
+    width: 300px;
 }
+
 caption{
     caption-side: bottom;
+}
+
+thead tr{
+    color: white;
+}
+
+thead tr th{
+    font-size: 1.5em;
+}
+
+tbody tr th{
+    font-size: 1.25em;
+}
+
+tr:nth-child(odd){
+    background-color: grey;
+}
+
+td{
+    text-align: center;
+    padding: 2px;
 }
