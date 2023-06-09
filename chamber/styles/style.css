@@ -276,34 +276,93 @@ figure{
 }
 
 /* join page */
-#form-grid{
+
+#join-form{
+	background-color: #0097b2;
+	color: white;
 	margin: 0 auto;
-	max-width: 700px;
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: auto auto auto auto;
+	width: 50%;
 }
 
-.first-name, .title, .phone{
-	grid-column: 1/2;
+#join-form h2{
+	text-align: center;
+	padding-top: 1.5rem;
 }
 
-.last-name, .email, .level{
-	grid-column: 2/3;
+form fieldset{
+	margin: 2rem 0;
+	border: 1px solid #5ce1e6;
+	padding: 1rem;
 }
 
-.bus-descrip{
-	grid-column: 1/3;
+form legend{
+	margin: 0 1rem;
+	padding: 0 .5rem;
 }
 
-.first-name, .last-name{
-	grid-row: 1/2;
+input{
+	height: 2em;
+	position: relative;
+	right: 0;
 }
 
-.title, .email{
-	grid-row: 2/3;
+.level{
+	height: 2em;
 }
 
-.phone, .level{
-	grid-row: 3/4;
+#join-form form{
+	width: 50%;
+	margin: 0 auto;
 }
+
+
+form label{
+	display: block;
+	padding-top: 1rem;
+}
+
+form label input, form label select{
+	display: block;
+	width: 100%;
+	max-width: 20rem;
+	background-color: rgba(126, 217, 87, 0.1);
+}
+
+form label textarea{
+	display: block;
+	width: 100%;
+	max-width: 30rem;
+}
+
+form label input:required{
+	border-left: orange solid 6px;
+}
+
+form label input:required:valid{
+	border-left: #7ed957 solid 6px;
+}
+
+::placeholder{
+	color: rgba(0, 0, 0, 0.7);
+}
+
+form button{
+	border: none;
+	background-color: #7ed957;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 96%;
+	max-width: 20rem;
+}
+
+
+
+#asterisk{
+	display: inline-block;
+	color: orange;
+	font-size: 1.2em;
+}
+
+/* .bus-descrip{
+	width: 100%;
+} */

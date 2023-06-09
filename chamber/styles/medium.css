@@ -85,7 +85,16 @@
         text-align: center;
     }
 
-
+    /* join page */
+    
+    #join-form{
+        width: 100%;
+    }
+    
+    #join-form form{
+        width: 95%;
+        margin: 0 auto;
+    }
 
 }
 

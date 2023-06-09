@@ -47,43 +47,52 @@
 
     <main>
         <div id="join-form">
-            <div id="form-grid">
-                <label for="first-name" class="first-name">First Name:
+            <h2>Join FMCC</h2>
+            <form id="form" method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                <label>First Name:<div id="asterisk">*</div>
                     <input type="text" class="first-name" name="first-name" required>
-                </label>
+                </label><br>
 
-                <label for="last-name" class="last-name">Last Name:
+                <label>Last Name:<div id="asterisk">*</div>
                     <input type="text" class="last-name" name="last-name" required>
-                </label>
+                </label><br>
 
-                <label for="bus-title" class="title">Title
+                <label>Title:
                     <input type="text" class="title" name="title">
-                </label>
+                </label><br>
 
-                <label for="email" class="email">Email:
-                    <input type="email" class="email" name="email" required>
-                </label>
+                <label>Email:<div id="asterisk">*</div>
+                    <input type="email" class="email" placeholder="person@business.com" name="email" required>
+                </label><br>
 
-                <label for="phone" class="phone">Phone Number:
-                    <input type="tel" class="phone" name="phone" required>
-                </label>
+                <label>Phone Number:<div id="asterisk">*</div>
+                    <input type="tel" class="phone" placeholder="Phone" name="phone" required>
+                </label><br>
 
-                <label for="level" class="level">Membership Level:
+                <label>Membership Level:<div id="asterisk">*</div>
                     <select class="level" name="level" required>
-                        <option value="placeholder">Choose One</option>
+                        <option>Choose One:</option>
                         <option value="np">Non-Profit Membership</option>
                         <option value="bronze">Bronze Membership</option>
                         <option value="silver">Silver Membership</option>
                         <option value="gold">Gold Membership</option>
                     </select>
-                </label>
+                </label><br>
 
-                <label for="bus-descrip" class="bus-descrip">Business Description
-                    <input type="text" class="bus-descrip" name="bus-descrip" required maxlength="250" minlength="50">
-                </label>
+                <label>Business Description:
+                    <textarea wrap="soft" rows="4" class="bus-descrip" placeholder="Briefly describe your business" name="bus-descrip" required maxlength="250" minlength="50"></textarea>
+                </label><br>
 
-                <button value="submit">Submit</button>
-            </div>
+                <label>
+                    <input class="date-time" type="text">
+                </label>
+            </fieldset>
+
+
+                <button value="submit">Join Now</button>
+            </form>
         </div>
 
     </main>
@@ -106,6 +115,6 @@
         <div id="info-box"><span id="footer-info"></span></div>
         </footer>
     <script src="scripts/script.js"></script>
-    
+    <script src="scripts/date-time.js"></script>
 </body>
 </html>
