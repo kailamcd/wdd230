@@ -1,6 +1,7 @@
 table{
+    margin: 0 auto;
     background-color: lightgrey;
-    width: 300px;
+    width: 400px;
 }
 
 caption{
@@ -27,7 +28,6 @@ tr:nth-child(odd){
 
 td{
     text-align: center;
-    padding: 2px;
 }
 
 tbody tr th.heading{
