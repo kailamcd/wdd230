@@ -41,4 +41,92 @@
 		height: auto;
 		z-index: -1;
 	}
+
+	/* join page */
+
+#join-form{
+	background-color: #0097b2;
+	color: white;
+	margin: 0 auto;
+	width: 50%;
+}
+
+#join-form h2{
+	text-align: center;
+	padding-top: 1.5rem;
+}
+
+form fieldset{
+	margin: 2rem 0;
+	border: 1px solid #5ce1e6;
+	padding: 1rem;
+}
+
+form legend{
+	margin: 0 1rem;
+	padding: 0 .5rem;
+}
+
+input{
+	height: 2em;
+	position: relative;
+	right: 0;
+}
+
+.level{
+	height: 2em;
+}
+
+#join-form form{
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+form label{
+	display: block;
+	padding-top: 1rem;
+}
+
+form label input, form label select{
+	display: block;
+	width: 100%;
+	max-width: 20rem;
+	background-color: rgba(126, 217, 87, 0.1);
+}
+
+form label textarea{
+	display: block;
+	width: 100%;
+	max-width: 30rem;
+}
+
+form label input:required{
+	border-left: orange solid 6px;
+}
+
+form label input:required:valid{
+	border-left: #7ed957 solid 6px;
+}
+
+::placeholder{
+	color: rgba(255, 255, 255, .7);
+}
+
+form button{
+	border: none;
+	background-color: #7ed957;
+	padding: .75rem 1.5rem;
+	margin: 0 0 2rem 2%;
+	width: 96%;
+	max-width: 20rem;
+}
+
+
+
+#asterisk{
+	display: inline-block;
+	color: orange;
+	font-size: 1.2em;
+}
 }
