@@ -366,3 +366,12 @@ form button{
 /* .bus-descrip{
 	width: 100%;
 } */
+
+/* thanks page */
+
+#thanks{
+	text-align: center;
+	background-color: #0097b2;
+	color: white;
+	padding: 10px;
+}

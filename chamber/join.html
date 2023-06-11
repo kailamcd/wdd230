@@ -32,7 +32,7 @@
                     <li><a href="index.html" title="home">Home</a></li>
                     <li><a href="discover.html" title="discover">Discover</a></li>
                     <li><a href="#" title="directory">Directory</a></li>
-                    <li><a href="#" title="join">Join</a></li>
+                    <li><a href="join.html" title="join">Join</a></li>
                     <li><a href="#" title="contact">Contact</a></li>
                     <li><a href="#" title="facebook">Facebook</a></li>
                     <li><a href="#" title="instagram">Instagram</a></li>
@@ -59,8 +59,8 @@
                     <input type="text" class="last-name" name="last-name" required>
                 </label><br>
 
-                <label>Title:
-                    <input type="text" class="title" name="title">
+                <label>Position:
+                    <input title="Position" type="text" class="title" name="title" pattern="[A-Za-z\-\s][-\,]{7}">
                 </label><br>
 
                 <label>Email:<div id="asterisk">*</div>
@@ -69,6 +69,10 @@
 
                 <label>Phone Number:<div id="asterisk">*</div>
                     <input type="tel" class="phone" placeholder="Phone" name="phone" required>
+                </label><br>
+
+                <label>Business Name<div id="asterisk">*</div>
+                    <input title="Business Name" type="text" class="bus-name" name="bus-name">
                 </label><br>
 
                 <label>Membership Level:<div id="asterisk">*</div>
