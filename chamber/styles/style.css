@@ -304,6 +304,7 @@ input{
 	height: 2em;
 	position: relative;
 	right: 0;
+	color: white;
 }
 
 .level{
@@ -336,10 +337,12 @@ form label textarea{
 
 form label input:required{
 	border-left: orange solid 6px;
+	border-bottom: orange solid 3px;
 }
 
 form label input:required:valid{
 	border-left: #7ed957 solid 6px;
+	border-bottom: #7ed957 solid 3px;
 }
 
 ::placeholder{
@@ -377,4 +380,8 @@ form button{
 	background-color: #0097b2;
 	color: white;
 	padding: 10px;
+}
+
+.date-time{
+	display: none;
 }
