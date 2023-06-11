@@ -363,9 +363,12 @@ form button{
 	font-size: 1.2em;
 }
 
-/* .bus-descrip{
-	width: 100%;
-} */
+.bus-descrip{
+	background-color: #5ce1e6;
+}
+.bus-descrip::placeholder{
+	color: black;
+}
 
 /* thanks page */
 
