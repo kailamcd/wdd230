@@ -48,7 +48,7 @@
         {
             "name": "Sparkle Cleaners",
             "address": "654 Cedar Street, Flower Mound, TX 75027",
-            "phone": "(972) 456-7890",
+            "phone": "(214) 890-1234",
             "url": "www.sparklecleanfm.com",
             "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
             "level": "",
@@ -71,6 +71,15 @@
             "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
             "level": "",
             "other": "Your Pet's Paradise Awaits. From wagging tails to purring companions, we offer a wide range of top-quality products and services to keep your furry friends happy, healthy, and pampered, making us the ultimate destination for all your pet's needs."
+        },
+        {
+            "name": "Blissful Books",
+            "address": "321 Oak Avenue, Flower Mound, TX 75028",
+            "phone": "(972) 456-7890",
+            "url": "www.blissfulbookstx.com",
+            "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
+            "level": "",
+            "other": "Blissful Books is a charming independent bookstore nestled in the heart of Flower Mound, Texas. With a carefully curated selection of literary gems and a cozy atmosphere that invites book lovers to explore, it's a haven for bibliophiles seeking new adventures within the pages."
         }
                                                                                             
     ]

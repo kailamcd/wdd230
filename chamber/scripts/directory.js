@@ -9,3 +9,5 @@ async function getBusData(busInfo) {
         console.log(data.businesses);
     }
 }
+
+getBusData(busInfo);
