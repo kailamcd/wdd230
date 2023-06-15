@@ -1,6 +1,5 @@
 const busInfo = 'https://kailamcd.github.io/wdd230/chamber/json/data.json';
 
-console.log('js connected');
 
 async function getBusData(busInfo) {
     const response = await fetch(busInfo);
@@ -21,8 +20,8 @@ const createCards = (business) => {
         let icon = document.createElement('img');
         let busName = document.createElement('h2');
         let fullInfo = document.createElement('p');
-        console.log(business.logo);
         icon.setAttribute('src', business.logo);
+        console.log(business.logo);
         icon.setAttribute('alt', `Logo for ${business.name}`);
         icon.setAttribute('loading', 'lazy');
         icon.setAttribute('width', '200');
