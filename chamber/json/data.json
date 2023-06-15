@@ -5,13 +5,13 @@
             "address": "123 Main Street<br>Flower Mound, TX 75028",
             "phone": "(972) 123-4567",
             "url": "www.petalparadiseflowermound.com",
-            "logo": "images/dir-images/petal.png",
+            "logo": "images/dir-images/petal.svg",
             "level": "",
             "other": "Petal Paradise: Where flowers flourish and dreams blossom. Experience the artistry of nature in every petal at our enchanting flower shop."
         },
         {
             "name": "Gourmet Grind",
-            "address": "456 Oak Avenue, Flower Mound, TX 75022",
+            "address": "456 Oak Avenue<br>Flower Mound, TX 75022",
             "phone": "(214) 987-6543",
             "url": "www.gourmetgrindtx.com",
             "logo": "images/dir-images/grind.svg",
@@ -20,7 +20,7 @@
         },
         {
             "name": "Serene Spa Retreat",
-            "address": "789 Elm Street, Flower Mound, TX 75027",
+            "address": "789 Elm Street<br>Flower Mound, TX 75027",
             "phone": "(972) 543-2109",
             "url": "www.serenesparetreat.com",
             "logo": "images/dir-images/spa.svg",
@@ -29,7 +29,7 @@
         },
         {
             "name": "Fit Flex Gym",
-            "address": "321 Maple Drive, Flower Mound, TX 75028",
+            "address": "321 Maple Drive<br>Flower Mound, TX 75028",
             "phone": "(214) 678-9012",
             "url": "www.fitflexgymflowermound.com",
             "logo": "images/dir-images/gym.svg",
@@ -38,7 +38,7 @@
         },
         {
             "name": "The Bistro Box",
-            "address": "987 Pine Lane, Flower Mound, TX 75027",
+            "address": "987 Pine Lane<br>Flower Mound, TX 75027",
             "phone": "(214) 890-1234",
             "url": "www.thebistroboxtx.com",
             "logo": "images/dir-images/bistro.svg",
@@ -47,7 +47,7 @@
         },
         {
             "name": "Sparkle Cleaners",
-            "address": "654 Cedar Street, Flower Mound, TX 75027",
+            "address": "654 Cedar Street<br>Flower Mound, TX 75027",
             "phone": "(214) 890-1234",
             "url": "www.sparklecleanfm.com",
             "logo": "images/dir-images/clean.svg",
@@ -56,7 +56,7 @@
         },
         {
             "name": "Fresh Florals",
-            "address": "789 Maple Drive, Flower Mound, TX 75022",
+            "address": "789 Maple Drive<br>Flower Mound, TX 75022",
             "phone": "(214) 543-2109",
             "url": "www.freshfloralsflowermound.com",
             "logo": "images/dir-images/fresh.svg",
@@ -65,7 +65,7 @@
         },
         {
             "name": "Pawsome Paws",
-            "address": "987 Elm Street, Flower Mound, TX 75027",
+            "address": "987 Elm Street<br>Flower Mound, TX 75027",
             "phone": "(972) 678-9012",
             "url": "www.pawsomepawsflomo.com",
             "logo": "images/dir-images/paw.svg",
@@ -74,7 +74,7 @@
         },
         {
             "name": "Blissful Books",
-            "address": "321 Oak Avenue, Flower Mound, TX 75028",
+            "address": "321 Oak Avenue<br>Flower Mound, TX 75028",
             "phone": "(972) 456-7890",
             "url": "www.blissfulbookstx.com",
             "logo": "images/dir-images/book.svg",
