@@ -19,20 +19,23 @@ const createCards = (prophet) => {
         let fullName = document.createElement('h2');
         let birthInfo = document.createElement('p');
         let picture = document.createElement('img');
-        let ordinal = 'th';
 
         fullName.textContent = `${prophet.name} ${prophet.lastname}`;
         birthInfo.innerHTML = `Born ${prophet.birthdate}<br>in ${prophet.birthplace}`;
 
         picture.setAttribute('src', prophet.imageurl);
         if (prophet.order == 1) {
-            let ordinal = 'st';
+            ordinal = 'st';
         }
         else if (prophet.order == 2) {
-            let ordinal = 'nd';
+            ordinal = 'nd';
+        }
+        else {
+            ordinal = 'th';
         }
 
-        picture.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
+        picture.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}, ${prophet.order}${ordinal} prophet of The Church of Jesus Christ of Latter-Day Saints`);
+        console.log(picture.alt);
         picture.setAttribute('loading', 'lazy');
         picture.setAttribute('width', '340');
         picture.setAttribute('height', '440');

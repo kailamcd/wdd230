@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 5px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(360px, 1fr));
+}
+
+section{
+    background-color: bisque;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    /* display: inline-block; */
+    border: 2px solid black;
+}
+
+img{
+    border-radius: 10px;
+}
+
