@@ -16,30 +16,29 @@ const createCards = (prophet) => {
 
     prophet.forEach((prophet) => {
         let container = document.createElement('section');
-        let name = document.createElement('h2');
-        let birthDate = document.createElement('p');
+        let fullName = document.createElement('h2');
+        let birthInfo = document.createElement('p');
         let picture = document.createElement('img');
-        let ordinal;
+        let ordinal = 'th';
 
-        name.textContent = `${prophet.name} ${prophet.lastname}`;
-        console.log(name);
-        birthDate.innerHTML = `Born ${prophet.birthdate}<br>in ${prophet.birthplace}`;
+        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
+        birthInfo.innerHTML = `Born ${prophet.birthdate}<br>in ${prophet.birthplace}`;
 
         picture.setAttribute('src', prophet.imageurl);
-        if (prophet.order == '1') {
+        if (prophet.order == 1) {
             let ordinal = 'st';
         }
-        if (prophet.order == '2') {
+        else if (prophet.order == 2) {
             let ordinal = 'nd';
         }
-        else {
-            let ordinal = 'th';
-        }
-        picture.setAttribute('alt', `${prophet.firstname} ${prophet.lastname}, ${prophet.order}${ordinal} of The Church of Jesus Christ of Latter-Day Saints`);
-        console.log('alt');
 
-        container.appendChild(name);
-        container.appendChild(birthDate);
+        picture.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
+        picture.setAttribute('loading', 'lazy');
+        picture.setAttribute('width', '340');
+        picture.setAttribute('height', '440');
+
+        container.appendChild(fullName);
+        container.appendChild(birthInfo);
         container.appendChild(picture);
 
         cards.appendChild(container);

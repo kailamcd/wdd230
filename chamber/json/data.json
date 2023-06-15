@@ -1,0 +1,77 @@
+{
+    "businesses": [
+        {
+            "name": "Petal Paradise",
+            "address": "123 Main Street, Flower Mound, TX 75028",
+            "phone": "(972) 123-4567",
+            "url": "www.petalparadiseflowermound.com",
+            "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
+            "level": "",
+            "other": "Petal Paradise: Where flowers flourish and dreams blossom. Experience the artistry of nature in every petal at our enchanting flower shop."
+        },
+        {
+            "name": "Gourmet Grind",
+            "address": "456 Oak Avenue, Flower Mound, TX 75022",
+            "phone": "(214) 987-6543",
+            "url": "www.gourmetgrindtx.com",
+            "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
+            "level": "",
+            "other": "A Sip of Perfection, A Moment of Bliss. Step into our inviting space and indulge in the rich aromas and flavors of carefully selected beans, expertly crafted beverages, and warm hospitality, as we strive to create an oasis of caffeine-fueled bliss for coffee enthusiasts and casual drinkers alike."
+        },
+        {
+            "name": "Serene Spa Retreat",
+            "address": "789 Elm Street, Flower Mound, TX 75027",
+            "phone": "(972) 543-2109",
+            "url": "www.serenesparetreat.com",
+            "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
+            "level": "",
+            "other": "Where Relaxation Meets Rejuvenation. Escape the hustle and bustle of everyday life as our skilled therapists pamper you with luxurious treatments, soothing massages, and revitalizing therapies, creating a serene sanctuary where you can unwind, replenish, and emerge refreshed, both inside and out."
+        },
+        {
+            "name": "Fit Flex Gym",
+            "address": "321 Maple Drive, Flower Mound, TX 75028",
+            "phone": "(214) 678-9012",
+            "url": "www.fitflexgymflowermound.com",
+            "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
+            "level": "",
+            "other": "Ignite Your Fitness Journey. Our state-of-the-art facility, expert trainers, and diverse range of workout options combine to provide a motivating environment where you can sculpt your body, improve your health, and achieve your fitness goals with confidence and determination."
+        },
+        {
+            "name": "The Bistro Box",
+            "address": "987 Pine Lane, Flower Mound, TX 75027",
+            "phone": "(214) 890-1234",
+            "url": "www.thebistroboxtx.com",
+            "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
+            "level": "",
+            "other": "Where Taste and Ambiance Unite. Indulge in the perfect blend of aromatic coffees, delectable pastries, and cozy atmosphere, as our friendly baristas serve up a delightful experience that will awaken your senses and leave you craving for more."
+        },
+        {
+            "name": "Sparkle Cleaners",
+            "address": "654 Cedar Street, Flower Mound, TX 75027",
+            "phone": "(972) 456-7890",
+            "url": "www.sparklecleanfm.com",
+            "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
+            "level": "",
+            "other": "Your Garments, Our Care. Trust us to provide impeccable cleaning and meticulous attention to detail, ensuring your clothes receive the utmost care and are returned to you looking and feeling as good as new."
+        },
+        {
+            "name": "Fresh Florals",
+            "address": "789 Maple Drive, Flower Mound, TX 75022",
+            "phone": "(214) 543-2109",
+            "url": "www.freshfloralsflowermound.com",
+            "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
+            "level": "",
+            "other": "Cultivating Nature's Green Oasis. Discover a botanical haven filled with an extensive collection of vibrant plants, where our passion for gardening and expertise in horticulture converge to create an unforgettable green experience."
+        },
+        {
+            "name": "Pawsome Paws",
+            "address": "987 Elm Street, Flower Mound, TX 75027",
+            "phone": "(972) 678-9012",
+            "url": "www.pawsomepawsflomo.com",
+            "logo": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0",
+            "level": "",
+            "other": "Your Pet's Paradise Awaits. From wagging tails to purring companions, we offer a wide range of top-quality products and services to keep your furry friends happy, healthy, and pampered, making us the ultimate destination for all your pet's needs."
+        }
+                                                                                            
+    ]
+}
