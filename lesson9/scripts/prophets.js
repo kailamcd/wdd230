@@ -4,7 +4,6 @@ async function getProphetData(url) {
     const response = await fetch(url);
     if (response.ok) {
     const data = await response.json();
-    console.table(data.prophets);
     createCards(data.prophets);
     }
 }
@@ -35,7 +34,6 @@ const createCards = (prophet) => {
         }
 
         picture.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}, ${prophet.order}${ordinal} prophet of The Church of Jesus Christ of Latter-Day Saints`);
-        console.log(picture.alt);
         picture.setAttribute('loading', 'lazy');
         picture.setAttribute('width', '340');
         picture.setAttribute('height', '440');
