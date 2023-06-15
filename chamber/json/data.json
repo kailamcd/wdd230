@@ -2,10 +2,10 @@
     "businesses": [
         {
             "name": "Petal Paradise",
-            "address": "123 Main Street, Flower Mound, TX 75028",
+            "address": "123 Main Street<br>Flower Mound, TX 75028",
             "phone": "(972) 123-4567",
             "url": "www.petalparadiseflowermound.com",
-            "logo": "images/dir-images/petal.svg",
+            "logo": "images/dir-images/petal.png",
             "level": "",
             "other": "Petal Paradise: Where flowers flourish and dreams blossom. Experience the artistry of nature in every petal at our enchanting flower shop."
         },

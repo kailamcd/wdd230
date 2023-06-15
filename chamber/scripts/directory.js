@@ -20,12 +20,19 @@ const createCards = (business) => {
         let icon = document.createElement('img');
         let busName = document.createElement('h2');
         let fullInfo = document.createElement('p');
+
+        busName.innerHTML = `${business.name}`;
+
         icon.setAttribute('src', business.logo);
-        console.log(business.logo);
         icon.setAttribute('alt', `Logo for ${business.name}`);
         icon.setAttribute('loading', 'lazy');
-        icon.setAttribute('width', '200');
-        icon.setAttribute('height', '200');
+        icon.setAttribute('width', '100');
+        icon.setAttribute('height', '100');
+
+        
+
+        fullInfo.innerHTML = `${business.address}<br>${business.phone}<br>${business.url}<p>${business.other}</p>`;
+
 
         container.appendChild(icon);
         container.appendChild(busName);

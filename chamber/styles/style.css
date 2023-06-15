@@ -382,3 +382,38 @@ form button{
 	padding: 10px;
 }
 
+/* directory page */
+
+#business-cards{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,
+    minmax(350px, 1fr));
+
+}
+
+#business-cards section img{
+	margin: 0 auto;
+	width: auto;
+}
+
+#business-cards section h2{
+	background-color: #0097b2;
+	color: white;
+	width: 100%;
+	padding: 3px;
+	text-align: center;
+}
+
+#business-cards section{
+	margin: 10px;
+	border: 2px solid #0097b2;
+	padding: 10px;
+}
+
+/* #business-cards section img{
+	grid-row: 1/2;
+}
+
+#business-cards section h2{
+	grid-row: 1/2;
+} */
