@@ -20,6 +20,7 @@ const createCards = (business) => {
         let icon = document.createElement('img');
         let busName = document.createElement('h2');
         let fullInfo = document.createElement('p');
+        let memLevel = document.createElement('p');
 
         busName.innerHTML = `${business.name}`;
 
@@ -31,12 +32,35 @@ const createCards = (business) => {
 
         
 
-        fullInfo.innerHTML = `${business.address}<br>${business.phone}<br>${business.url}<p>${business.other}</p>`;
+        fullInfo.innerHTML = `${business.address}<br>${business.phone}<br><a href='${business.url}'>${business.url}</a><p>${business.other}</p>`;
 
+        memLevel.setAttribute('title', business.level);
+        memLevel.setAttribute('id', 'membership');
+
+        if (memLevel.title == 'gold') {
+            memLevel.innerHTML = `FMCC Gold Level Member`;
+            memLevel.style.backgroundColor = '#d4af37';
+        }
+        if (memLevel.title == 'silver') {
+            memLevel.innerHTML = `FMCC Silver Level Member`;
+            memLevel.style.backgroundColor = '#c0c0c0';
+
+        }
+        if (memLevel.title == 'bronze') {
+            memLevel.innerHTML = `FMCC Bronze Level Member`;
+            memLevel.style.backgroundColor = '#cd7f32';
+
+        }
+        if (memLevel.title == 'non-profit') {
+            memLevel.innerHTML = `FMCC Non-Profit Member`;
+            memLevel.style.backgroundColor = '#5ce1e6';
+
+        }
 
         container.appendChild(icon);
         container.appendChild(busName);
         container.appendChild(fullInfo);
+        container.appendChild(memLevel);
 
         cards.appendChild(container);
         

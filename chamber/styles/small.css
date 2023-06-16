@@ -61,3 +61,13 @@ input{
     width: 95%;
     margin: 0 auto;
 }
+
+#business-cards{
+    margin: auto;
+}
+
+#business-cards section img{
+	margin: 0 auto;
+	width: 75px;
+	grid-column: 1/2;
+}
