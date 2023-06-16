@@ -391,29 +391,34 @@ form button{
 
 }
 
-#business-cards section img{
-	margin: 0 auto;
-	width: auto;
-}
+
 
 #business-cards section h2{
 	background-color: #0097b2;
 	color: white;
-	width: 100%;
-	padding: 3px;
 	text-align: center;
+	grid-column: 2/3;
+
 }
 
 #business-cards section{
 	margin: 10px;
 	border: 2px solid #0097b2;
 	padding: 10px;
+	display: grid;
+	grid-template-columns: 100px auto;
+	grid-template-rows: 100px auto;
+	align-items: stretch;
+	/* justify-items: center; */
 }
 
-/* #business-cards section img{
-	grid-row: 1/2;
+#business-cards section img{
+	margin: 0 auto;
+	width: auto;
+	grid-column: 1/2;
 }
 
-#business-cards section h2{
-	grid-row: 1/2;
-} */
+#business-cards section p{
+	grid-column: 1/3;
+
+}
