@@ -445,7 +445,7 @@ form button{
 #dir-buttons{
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: right;
 	margin-top: -5px;
 }
 
