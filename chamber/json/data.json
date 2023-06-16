@@ -6,7 +6,7 @@
             "phone": "(972) 123-4567",
             "url": "www.petalparadiseflowermound.com",
             "logo": "images/dir-images/petal.svg",
-            "level": "",
+            "level": "bronze",
             "other": "Petal Paradise: Where flowers flourish and dreams blossom. Experience the artistry of nature in every petal at our enchanting flower shop."
         },
         {
@@ -15,7 +15,7 @@
             "phone": "(214) 987-6543",
             "url": "www.gourmetgrindtx.com",
             "logo": "images/dir-images/grind.svg",
-            "level": "",
+            "level": "silver",
             "other": "A Sip of Perfection, A Moment of Bliss. Step into our inviting space and indulge in the rich aromas and flavors of carefully selected beans, expertly crafted beverages, and warm hospitality, as we strive to create an oasis of caffeine-fueled bliss for coffee enthusiasts and casual drinkers alike."
         },
         {
@@ -24,7 +24,7 @@
             "phone": "(972) 543-2109",
             "url": "www.serenesparetreat.com",
             "logo": "images/dir-images/spa.svg",
-            "level": "",
+            "level": "gold",
             "other": "Where Relaxation Meets Rejuvenation. Escape the hustle and bustle of everyday life as our skilled therapists pamper you with luxurious treatments, soothing massages, and revitalizing therapies, creating a serene sanctuary where you can unwind, replenish, and emerge refreshed, both inside and out."
         },
         {
@@ -33,7 +33,7 @@
             "phone": "(214) 678-9012",
             "url": "www.fitflexgymflowermound.com",
             "logo": "images/dir-images/gym.svg",
-            "level": "",
+            "level": "non-profit",
             "other": "Ignite Your Fitness Journey. Our state-of-the-art facility, expert trainers, and diverse range of workout options combine to provide a motivating environment where you can sculpt your body, improve your health, and achieve your fitness goals with confidence and determination."
         },
         {
@@ -42,7 +42,7 @@
             "phone": "(214) 890-1234",
             "url": "www.thebistroboxtx.com",
             "logo": "images/dir-images/bistro.svg",
-            "level": "",
+            "level": "bronze",
             "other": "Where Taste and Ambiance Unite. Indulge in the perfect blend of aromatic coffees, delectable pastries, and cozy atmosphere, as our friendly baristas serve up a delightful experience that will awaken your senses and leave you craving for more."
         },
         {
@@ -51,7 +51,7 @@
             "phone": "(214) 890-1234",
             "url": "www.sparklecleanfm.com",
             "logo": "images/dir-images/clean.svg",
-            "level": "",
+            "level": "silver",
             "other": "Your Garments, Our Care. Trust us to provide impeccable cleaning and meticulous attention to detail, ensuring your clothes receive the utmost care and are returned to you looking and feeling as good as new."
         },
         {
@@ -60,7 +60,7 @@
             "phone": "(214) 543-2109",
             "url": "www.freshfloralsflowermound.com",
             "logo": "images/dir-images/fresh.svg",
-            "level": "",
+            "level": "gold",
             "other": "Cultivating Nature's Green Oasis. Discover a botanical haven filled with an extensive collection of vibrant plants, where our passion for gardening and expertise in horticulture converge to create an unforgettable green experience."
         },
         {
@@ -69,7 +69,7 @@
             "phone": "(972) 678-9012",
             "url": "www.pawsomepawsflomo.com",
             "logo": "images/dir-images/paw.svg",
-            "level": "",
+            "level": "non-profit",
             "other": "Your Pet's Paradise Awaits. From wagging tails to purring companions, we offer a wide range of top-quality products and services to keep your furry friends happy, healthy, and pampered, making us the ultimate destination for all your pet's needs."
         },
         {
@@ -78,7 +78,7 @@
             "phone": "(972) 456-7890",
             "url": "www.blissfulbookstx.com",
             "logo": "images/dir-images/book.svg",
-            "level": "",
+            "level": "gold",
             "other": "Blissful Books is a charming independent bookstore nestled in the heart of Flower Mound, Texas. With a carefully curated selection of literary gems and a cozy atmosphere that invites book lovers to explore, it's a haven for bibliophiles seeking new adventures within the pages."
         }
                                                                                             
