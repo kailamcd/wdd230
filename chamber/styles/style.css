@@ -441,3 +441,14 @@ form button{
 	font-weight: bold;
 
 }
+
+#dir-buttons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -5px;
+}
+
+#dir-nav{
+	margin: 3px;
+}
