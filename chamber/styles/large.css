@@ -130,3 +130,14 @@ form button{
 	font-size: 1.2em;
 }
 }
+
+#business-cards section{
+	margin: 10px;
+	border: 2px solid #0097b2;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 100px auto;
+	grid-template-rows: 100px 263px auto;
+	align-items: stretch;
+	/* justify-items: center; */
+}

@@ -33,3 +33,5 @@ if (day == 'Monday' || day == "Tuesday") {
 	topMargin.style.marginTop = "50px";
 };
 
+const listButton = document.querySelector('#list-button');
+

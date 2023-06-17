@@ -5,10 +5,11 @@ async function getBusData(busInfo) {
     const response = await fetch(busInfo);
     if (response.ok) {
         const data = await response.json();
-        console.log(data.businesses);
         createCards(data.businesses);
     }
 }
+
+
 
 getBusData(busInfo);
 

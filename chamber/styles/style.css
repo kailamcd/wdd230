@@ -430,17 +430,13 @@ form button{
 	padding-top: .25em;
 }
 
-#business-cards section a{
+#business-cards a{
 	text-decoration: none;
 	font-weight: bold;
 	color: #0097b2;
 }
 
-#business-cards section a:visited{
-	color: #5ce1e6;
-	font-weight: bold;
 
-}
 
 #dir-buttons{
 	display: flex;
@@ -451,4 +447,23 @@ form button{
 
 #dir-nav{
 	margin: 3px;
+}
+
+#business-cards table{
+	width: fit-content;
+}
+
+#business-cards tr:nth-child(odd){
+	background-color: #0097b2;
+	color: white;
+}
+
+#business-cards tr:nth-child(odd) a{
+	background-color: #0097b2;
+	color: white;
+}
+
+#business-cards td{
+	padding: 10px;
+
 }
