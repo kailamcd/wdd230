@@ -1,0 +1,10 @@
+#weather-card{
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
