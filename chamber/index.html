@@ -68,12 +68,15 @@
                 </section>
 
                 <section id="weather">
-                    <!-- <h2 class="big-title">Weather</h2> -->
                     <div id="weather-info">
-                        <h2 class="temp-title">33</h2>
-                        <h3>Partly Cloudy</h3>
-                        <p>Wind Speed:  <span id="wind-speed"></span>m/h</p>
-                        <p class="chill">Wind Chill:  N/A</p>
+                        <figure>
+                        <img id="weather-icon" src="">
+
+                        <span id="current-temp"></span>
+                        </figure>
+                        <span id="conditions"></span>
+                        <span id="wind-speed"></span>
+                        <span class="chill"></span>
                     </div>
                     <img class="big-img" src="images/weather-01.jpg">
 
@@ -124,6 +127,7 @@
         <div id="info-box"><span id="footer-info"></span></div>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <!-- <script src="scripts/windchill.js"></script> -->
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

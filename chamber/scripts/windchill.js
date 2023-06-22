@@ -3,7 +3,7 @@
 
 
 
-emp = document.querySelector(".temp-title");
+temp = document.querySelector(".temp-title");
 temperature = 33;
 t = 5;
 s = 3;
