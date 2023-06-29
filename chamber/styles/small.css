@@ -71,3 +71,13 @@ input{
 	width: 75px;
 	grid-column: 1/2;
 }
+
+/* contact page */
+
+#contact-body{
+    display: block;
+}
+
+/* #contact-hero{
+    display: none;
+} */
