@@ -20,12 +20,14 @@ html{
 }
 
 #spotlight-grid{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 210px;
 }
 
-#company-block1, #company-block2, #company-block3{
-    max-width: 300px;
-}
+
+
 
 /* discover page */
 

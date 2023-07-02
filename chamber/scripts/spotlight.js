@@ -40,7 +40,7 @@ const createSpotlight = (spotList) => {
         let container = document.createElement('figure');
         let icon = document.createElement('img');
         let busName = document.createElement('h3');
-        let fullInfo = document.createElement('figcaption');
+        let website = document.createElement('figcaption');
         // let memLevel = document.createElement('p');
     
         busName.innerHTML = `${spotList.name}`;
@@ -52,11 +52,11 @@ const createSpotlight = (spotList) => {
         icon.setAttribute('height', '100');
         icon.setAttribute('id', 'home-logo');
     
-        fullInfo.innerHTML = spotList.url;
+        website.innerHTML = `<a href="${spotList.url}">${spotList.url}</a>`;
         
         container.appendChild(icon);
         container.appendChild(busName);
-        container.appendChild(fullInfo);
+        container.appendChild(website);
         // container.appendChild(memLevel);
     
         spotlights.appendChild(container);
