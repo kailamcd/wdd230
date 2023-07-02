@@ -1,0 +1,19 @@
+{
+    "contacts": [
+        {
+            "name": "Jim Jimson",
+            "phone": "(972) 123-4567",
+            "email": "JJim@FMCC.com"
+        },
+        {
+            "name": "Patricia Cheetos",
+            "phone": "(972) 123-4567",
+            "email": "PCheet@FMCC.com"
+        },
+        {
+            "name": "Habish Wahdip",
+            "phone": "(972) 123-4567",
+            "email": "WHabish@FMCC.com"
+        }
+    ]
+}

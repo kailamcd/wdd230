@@ -78,6 +78,7 @@ input{
     display: block;
 }
 
-/* #contact-hero{
-    display: none;
-} */
+#people{
+    margin-left: 10%;
+}
+
