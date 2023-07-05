@@ -1,0 +1,71 @@
+@media screen and (min-width: 516px) and (max-width: 874px) {
+    body {
+        max-width: 100%;
+    }
+
+    #top-banner {
+        height: 6.5rem;
+    }
+
+    #bus-name {
+        margin-top: 0;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    #hamButton {
+        display: block;
+        width: 100%;
+        height: 3rem;
+        background-color: #D1759A;
+        color: #F7F2F4;
+        border: none;
+        border-radius: 60px;
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    .responsive {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .responsive a {
+        display: block;
+        /* width: 100%; */
+    }
+
+    .responsive #social-links {
+        display: none;
+    }
+
+    /* -------------------footer ----------------- */
+    #info-box {
+        height: 100px;
+        width: 300px;
+        position: fixed;
+        bottom: -40px;
+        left: -40px;
+        background-color: #D1759A;
+        border-radius: 60px;
+        border: 10px solid #F7F2F4;
+        text-align: center;
+    }
+    
+    #footer-info {
+        position: absolute;
+        right: 0px;
+        bottom: -10px;
+    }
+    
+    #updated {
+        text-align: right;
+        width: 150px;
+        font-size: .75em;
+    }
+}

@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/x-small.css">
     <title>bountiful foods</title>
 </head>
 <body>
-
-    <main>
+    <header>
 
         <div id="top-banner">
             <h1 id="bus-name">bountiful foods</h1>
             <h3 id="tagline">only the freshest</h3>
 
         <!-- navigation bar -->
+        <button id="hamButton">&#9776;</button>
             <nav>
+                <div class="navigation">
                 <a id="current" href="index.html">home</a>
                 <a href="order.html">order</a>
                 <a href="about.html">about</a>
@@ -30,10 +35,29 @@
 
                     </a>
                 </div>
+                </div>
             </nav>
         </div>
+        </header>
+    <main>
 
+
+
+
+
+        <footer>
+            <div id="info-box">
+                <h3>&copy; <span id="year"></span> bountiful foods</h3>
+                <a id="attributions" href="">references</a>
+
+            </div>
+            <div id="footer-info">
+                <p id="updated">Last Updated: <span id="full-date"></span></p>
+            </div>
+
+        </footer>
     </main>
-    
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/date.js"></script>
 </body>
 </html>

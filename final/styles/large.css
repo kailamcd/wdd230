@@ -1,0 +1,28 @@
+@media screen and (min-width: 875px) {
+    body {
+        width: 80%;
+    }
+    #info-box {
+        height: 100px;
+        width: 300px;
+        position: fixed;
+        bottom: -40px;
+        left: 10%;
+        background-color: #D1759A;
+        border-radius: 60px;
+        border: 10px solid #F7F2F4;
+        text-align: center;
+    }
+    
+    #footer-info {
+        position: absolute;
+        right: 0px;
+        bottom: -10px;
+    }
+    
+    #updated {
+        text-align: right;
+        width: auto;
+        font-size: .75em;
+    }
+}
