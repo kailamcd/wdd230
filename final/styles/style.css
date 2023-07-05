@@ -9,13 +9,14 @@ main {
 #top-banner{
     text-align: right;
     background-color: #FFF8AD;
-    height: 5.6rem;
+    height: 6.2rem;
 }
 
 #bus-name {
     font-family: 'Caprasimo', cursive;
     font-weight: 300;
     font-size: 3em;
+    padding-top: .2em;
 }
 
 #tagline {
@@ -26,7 +27,7 @@ main {
 /*------------------ top navigation menu -------------- */
 
 nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -56,5 +57,19 @@ nav a:hover {
     text-decoration: none;
     background-color: #FFF8AD;
     color: black;
+}
+
+#social-links {
+    display: flex;
+    margin-top: -.5em;
+}
+
+#social-icon {
+    width: 50px;
+    height: 50px;
+}
+
+#social-icon:hover {
+    background-color: #D1759A;
 }
 
