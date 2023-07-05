@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:wght@300;400&family=Rubik+Mono+One&family=Shrikhand&family=Titan+One&display=swap');
+
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#top-banner{
+    text-align: right;
+    background-color: #FFF8AD;
+    height: 5.6rem;
+}
+
+#bus-name {
+    font-family: 'Caprasimo', cursive;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+#tagline {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -40px;
+}
+
+/*------------------ top navigation menu -------------- */
+
+nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #D1759A;
+    height: 4.5rem;
+    text-align: center;
+    border-bottom: 3px solid #FFF8AD;
+}
+
+
+nav a {
+    padding: 1.25rem;
+    text-decoration: none;
+    width: 100%;
+    color: #F7F2F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+#current {
+    background-color: #FFF8AD;
+    color: #0D0907;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: #FFF8AD;
+    color: black;
+}
+
