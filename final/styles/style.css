@@ -139,3 +139,25 @@ p {
 #updated {
     text-align: left;
 }
+
+/* -------------index------------------- */
+
+#home-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 45%;
+    margin: 10px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}

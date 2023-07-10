@@ -68,4 +68,18 @@
         width: 150px;
         font-size: .75em;
     }
+
+    .large {
+        display: none;
+    }
+
+    .small {
+        display: none;
+    }
+
+    
+    .container {
+        width: 45%;
+        margin: 5px;
+    }
 }

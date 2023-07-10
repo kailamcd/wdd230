@@ -77,6 +77,17 @@
         text-align: right;
     }
 
+    .large {
+        display: none;
+    }
 
+    .medium {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: 10px;
+    }
 
 }
