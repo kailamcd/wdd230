@@ -18,6 +18,11 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
 #top-banner{
     text-align: right;
     background-color: #FFF8AD;
@@ -155,10 +160,38 @@ p {
 .container {
     width: 45%;
     margin: 10px;
+    text-align: center;
+    position: relative;
 }
 
 .container img {
     width: 100%;
     height: auto;
     border-bottom-right-radius: 40px;
+}
+
+.call-to-action img {
+    z-index: -1;
+}
+
+.order-link {
+    font-family: 'Caprasimo', cursive;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 20%;
+    z-index: 2;
+    color: #0D0907;
+    font-weight: 500;
+    background-color: #F7F2F4;
+    /* transform: translate(-50%, -50%); */
+}
+
+.paragraph {
+    font-size: 1.25em;
+}
+
+.superscript {
+    font-size: .5em;
+    width: 10px;
 }
