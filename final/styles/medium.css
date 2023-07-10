@@ -69,17 +69,22 @@
         font-size: .75em;
     }
 
+    /* ----------------index----------------- */
+
     .large {
         display: none;
     }
 
-    .small {
+    .medium {
         display: none;
     }
 
+    #home-grid {
+        flex-direction: column;
+    }
     
     .container {
-        width: 45%;
+        width: 100%;
         margin: 5px;
     }
 }

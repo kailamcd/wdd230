@@ -26,6 +26,12 @@
         font-size: .75em;
     }
 
+    /* --------------index-------------- */
+
+    #home-grid {
+        margin-top: 70px;
+    }
+
     .medium {
         display: none;
     }
