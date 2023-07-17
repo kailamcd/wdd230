@@ -26,6 +26,7 @@
         border-radius: 60px;
         text-align: center;
         font-size: 1.7em;
+
     }
 
     .responsive {
@@ -50,19 +51,17 @@
     #info-box {
         height: 100px;
         width: 300px;
-        position: fixed;
-        bottom: -40px;
-        left: -40px;
+        position: static;
+        margin-bottom: -40px;
         background-color: #D1759A;
         border-radius: 60px;
-        border: 10px solid #F7F2F4;
         text-align: center;
     }
     
     #footer-info {
-        position: absolute;
+        position: fixed;
         right: 0px;
-        bottom: -10px;
+        bottom: 0;
     }
     
     #updated {

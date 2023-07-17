@@ -28,6 +28,7 @@
         border-radius: 60px;
         text-align: center;
         font-size: 1.7em;
+        position: sticky;
     }
 
     .responsive {
@@ -48,13 +49,15 @@
     }
 
 
+
     /* ----------------------- footer ------------------------- */
     #info-box {
         height: 100px;
         width: 100%;
+        padding-top: 10px;
         display: block;
-        position: absolute;
-        bottom: -14px;
+        position: static;
+        bottom: 0;
         left: 0;
         margin: 0 auto;
         background-color: #D1759A;
@@ -64,17 +67,19 @@
     }
     
     #footer-info {
-        position: absolute;
-        right: auto;
-        left: auto;
-        bottom: -10px;
+        position: static;
+        margin-top: -35px;
+        padding: 3px;
+        text-align: center;
+        background-color: #F7F2F4;
+        border-radius: 25px 25px 0px 0px;
         width: 250px;
     }
 
 
     #updated {
         font-size: .75em;
-        text-align: right;
+        text-align: center;
     }
 
     .large {
