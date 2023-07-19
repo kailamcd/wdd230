@@ -68,7 +68,8 @@
         right: 0px;
         bottom: 0;
         background-color: #F7F2F4;
-        border-radius: 25px;
+        padding: 10px;
+        border-radius: 50px;
     }
     
     #updated {
@@ -95,4 +96,9 @@
         width: 100%;
         margin: 5px;
     }
+        /* -------------------order------------------- */
+
+        form {
+            margin-top: 75px;
+        }
 }

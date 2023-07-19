@@ -42,6 +42,59 @@
 </header>
         <main>
 
+            <form id="form" method="get" action="">
+
+                <fieldset class="person-info">
+
+                    <legend>your info</legend>
+                    <label>first Name
+                        <input type="text" class="first-name" name="first-name" placeholder="Jim" required>
+                    </label><br>
+                    <label>email
+                        <input type="email" class="email" name="email" placeholder="jim@ilovefruit.com" required>
+                    </label><br>
+                    <label>phone number
+                        <input type="tel" class="phone" name="phone" placeholder="0005551234" required>
+                    </label>
+
+                    </fieldset>
+
+                    <fieldset class="recipe">
+                    <legend>choose your fruits</legend>
+                    <label>1
+                        <select class="fruit1" name="fruit1" required>
+                            <span class="option"></span>
+                        </select>
+                    </label>
+                    <label>2
+                        <select class="fruit2" name="fruit2" required>
+                            <span class="option"></span>
+                        </select>
+                    </label>
+                    <label>3
+                        <select class="fruit3" name="fruit3" required>
+                            <span class="option"></span>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <fieldset class="special">
+                    <legend>special instructions</legend>
+                    <label>
+                        <textarea name="special" id="special" placeholder="Sprinkle of cinnamon on top, please!"></textarea>
+                    </label>
+                </fieldset>
+
+                <button value="submit">get fresh</button>
+
+            </form>
+
+
+
+
+
+
+
         </main>
 
         <footer>
@@ -57,5 +110,6 @@
         </footer>
     <script src="scripts/nav.js"></script>
     <script src="scripts/date.js"></script>
+    <script src="scripts/fruit.js"></script>
 </body>
 </html>

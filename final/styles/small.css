@@ -59,17 +59,14 @@
     }
     
     #footer-info {
-        position: fixed;
-        right: 0px;
-        bottom: 0;
+        position: static;
     }
     
     #updated {
-        text-align: right;
-        width: 100px;
+        text-align: center;
+        width: 55%;
         font-size: .75em;
         margin-bottom: 0;
-
     }
 
     .large {
@@ -83,5 +80,11 @@
     .container {
         width: 100%;
         margin: 10px;
+    }
+
+    /* -------------------order------------------- */
+
+    form {
+        margin-top: 50px;
     }
 }

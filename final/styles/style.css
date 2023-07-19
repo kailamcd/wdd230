@@ -121,23 +121,26 @@ main {
 
 .weather {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 55px auto;
     align-items: center;
     width: 50%;
     margin: 0 auto;
+    text-align: center;
 }
 
-#wind-speed {
+#humidity {
     grid-column: 1/4;
     margin: 0;
 }
 
+/* .chill {
+    grid-column: 1/4;
+    margin: 0;
+} */
 
-#weather-icon {
-    width: 50px;
-    height: auto;
-}
+
+
 
 /* ------------------ footer ------------------- */
 
@@ -235,4 +238,46 @@ main {
 .superscript {
     font-size: .5em;
     width: 10px;
+}
+
+/* -------------------order------------------- */
+
+form {
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+fieldset {
+    border: 1px solid #D1759A;
+    border-radius: 60px;
+    /* padding: 10px; */
+}
+
+legend {
+    font-family: 'Caprasimo', cursive;
+    font-size: 1.1em;
+}
+
+label, input, select, textarea {
+    margin-left: 10px;
+}
+
+
+
+.recipe {
+
+    height: 3rem;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    height: 2.5rem;
+    font-family: 'Caprasimo', cursive;
+    font-size: 1.5em;
+    border-radius: 60px;
+    background-color: #D1759A;
+    border: none;
+    cursor: pointer;
 }
