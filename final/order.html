@@ -35,24 +35,29 @@
                             <img id="social-icon" src="images/insta-icon-yellow.png" alt="Instagram logo - Image by rawpixel.com on Freepik">
 
                         </a>
+
+                        <a id="social" href="https://www.twitter.com" target="_blank">
+                            <img id="social-icon" src="images/twit-icon-yellow.png" alt="Twitter logo - Image by rawpixel.com on Freepik">
+                        </a>
                     </div>
                 </div>
             </nav>
         </div>
 </header>
-        <main>
+        <main id="order-body">
+            <p class="order-message"><span class="order-output">order the freshest juice of your life:</span></p>
 
-            <form id="form" method="get" action="">
+            <form id="form" method="get" action="javascript:displayInput()">
 
                 <fieldset class="person-info">
 
                     <legend>your info</legend>
-                    <label>first Name
+                    <label>first name
                         <input type="text" class="first-name" name="first-name" placeholder="Jim" required>
-                    </label><br>
+                    </label>
                     <label>email
                         <input type="email" class="email" name="email" placeholder="jim@ilovefruit.com" required>
-                    </label><br>
+                    </label>
                     <label>phone number
                         <input type="tel" class="phone" name="phone" placeholder="0005551234" required>
                     </label>
@@ -85,11 +90,30 @@
                     </label>
                 </fieldset>
 
-                <button value="submit">get fresh</button>
-
+                <button id="submit" value="submit" name="submit">get fresh</button>
+                <p id="pad"></p>
             </form>
 
+            <div id="rainbow-pic">
+                <img src="images/rainbow/apple.png" alt="apples">
+                <img src="images/rainbow/tang.png" alt="tangerines">
+                <img src="images/rainbow/pine.png" alt="pineapple">
+                <img src="images/rainbow/kiwi.png" alt="kiwi">
+                <img src="images/rainbow/blue.png" alt="blueberries">
+                <img src="images/rainbow/grape.png" alt="grapes">
+            </div>
 
+            <div id="rainbow-pic-left">
+                <img class="left" src="images/rainbow/apple.png" alt="apples">
+                <img class="left" src="images/rainbow/tang.png" alt="tangerines">
+                <img class="left" src="images/rainbow/pine.png" alt="pineapple">
+            </div>
+
+            <div id="rainbow-pic-right">
+                <img class="right" src="images/rainbow/kiwi.png" alt="kiwi">
+                <img class="right" src="images/rainbow/blue.png" alt="blueberries">
+                <img class="right" src="images/rainbow/grape.png" alt="grapes">
+            </div>
 
 
 
@@ -100,7 +124,7 @@
         <footer>
             <div id="info-box">
                 <h3>&copy; <span id="year"></span> bountiful foods</h3>
-                <a id="attributions" href="">references</a>
+                <a id="attributions" href="references.html">references</a>
 
             </div>
             <div id="footer-info">

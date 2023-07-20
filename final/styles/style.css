@@ -120,6 +120,7 @@ main {
 
 
 .weather {
+    grid-column: 1/3;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 55px auto;
@@ -243,9 +244,11 @@ main {
 /* -------------------order------------------- */
 
 form {
-    margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
+}
 
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
 }
 
 fieldset {
@@ -261,14 +264,10 @@ legend {
 
 label, input, select, textarea {
     margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
-
-.recipe {
-
-    height: 3rem;
-}
 
 button {
     width: 100%;
@@ -280,4 +279,14 @@ button {
     background-color: #D1759A;
     border: none;
     cursor: pointer;
+}
+
+.order-message {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: #D1759A;
+    border-radius: 60px;
+    padding: 30px;
 }

@@ -50,23 +50,33 @@
     /* ---------------- footer ---------------- */
     #info-box {
         height: 100px;
-        width: 300px;
+        width: 100%;
+        padding-top: 10px;
+        display: block;
         position: static;
-        margin-bottom: -40px;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
         background-color: #D1759A;
-        border-radius: 60px;
+        border-radius: 60px 60px 0px 0px;
+        border: none;
         text-align: center;
     }
     
     #footer-info {
         position: static;
+        margin: 0 auto;
+        margin-top: -35px;
+        padding: 3px;
+        text-align: center;
+        background-color: #fff8ad;
+        border-radius: 25px 25px 0px 0px;
+        width: 250px;
     }
     
     #updated {
-        text-align: center;
-        width: 55%;
         font-size: .75em;
-        margin-bottom: 0;
+        text-align: center;
     }
 
     .large {
@@ -84,7 +94,27 @@
 
     /* -------------------order------------------- */
 
+    #order-body {
+        margin-top: -40px;
+    }
+    
     form {
-        margin-top: 50px;
+        margin-top: 20px;
+    }
+
+    form label, input {
+        display: block;
+    }
+
+    form select, option {
+        display: inline;
+    }
+
+    fieldset {
+        height: auto;
+    }
+
+    #rainbow-pic, #rainbow-pic-left, #rainbow-pic-right {
+        display: none;
     }
 }

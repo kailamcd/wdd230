@@ -46,7 +46,7 @@
 
     
     main {
-        margin-bottom: 70px;
+        margin-bottom: 100px;
     }
 
 
@@ -68,7 +68,7 @@
         right: 0px;
         bottom: 0;
         background-color: #F7F2F4;
-        padding: 10px;
+        padding: 5px;
         border-radius: 50px;
     }
     
@@ -96,9 +96,60 @@
         width: 100%;
         margin: 5px;
     }
-        /* -------------------order------------------- */
+    /* -------------------order------------------- */
 
-        form {
-            margin-top: 75px;
-        }
+    #order-body {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-row: auto auto;
+    }
+
+    .order-message {
+        margin-top: 0;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        width: 90%;
+    }
+
+    form {
+        margin-top: 5px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #rainbow-pic-left {
+        grid-column: 1/2;
+
+    }
+
+    #rainbow-pic-right {
+        grid-column: 3/4;
+
+    }
+
+    #rainbow-pic {
+        display: none;
+    }
+
+    #rainbow-pic-right img, #rainbow-pic-left img {
+        max-width: 150px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+
+
+    form label, input {
+        display: block;
+    }
+
+    form select, option {
+        display: inline;
+    }
+
+    fieldset {
+        height: auto;
+    }
 }
